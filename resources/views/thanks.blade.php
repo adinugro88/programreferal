@@ -29,7 +29,6 @@
 
         .wrapper-1 {
             width: 90%;
-            height: 50vh;
             margin: 0 auto;
             display: flex;
             flex-direction: column;
@@ -251,6 +250,26 @@
             height: 200px;
             position: relative;
             margin: 25px auto;
+        }
+
+
+        @media only screen and (max-width: 600px) {
+            .grupp {
+            background-size: 300px 195px;
+            width: 300px;
+            height: 195px;
+            }
+
+            .wrapper-2 {
+            padding: 10px;
+            text-align: center;
+        }
+
+        .wrapper-1 {
+            margin-top:50px;
+        }
+
+
         }
 
     </style>

@@ -496,7 +496,10 @@
         <div class="form_container">
             <div class="title_container">
                 <h2>Claim Referal 
-                   <br> {{$claim ->kode_referal}} - {{$claim ->nama}}</h2>
+                   <br> 
+                   {{-- {{$claim ->kode_referal}}  --}}
+                   
+                   {{-- - {{$claim ->nama}}</h2> --}}
 
             </div>
             <div class="row clearfix">
